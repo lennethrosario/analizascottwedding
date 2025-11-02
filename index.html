@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project Page</title>
+    <title>Analiza & Scott - Wedding RSVP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- Link to external JavaScript file -->
 </head>
 <body>
-    <h1>Welcome to My Project!</h1>
-    <p>This is my project page hosted on GitHub Pages.</p>
+    <div class="heading">
+        <h1>Analiza & Scotts Wedding</h1>
+    </div>
+    <div class="rsvp-form">
+        <p id="greeting">Dear Guest, </p>
+        <p>We would love to invite you to Analiza and Scotts wedding</p>
+        <p>27th of July 2026</p>
+        <p>St. James Parish Church, Caibiran, Biliran, Philippines</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.812941561998!2d124.57686847465465!3d11.570816744039858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3308217439e8b73b%3A0xb501641fb80d5387!2sSt.%20James%20Parish%20Church!5e1!3m2!1sen!2sau!4v1762117581589!5m2!1sen!2sau" width="300" height="150" style="border:0;" loading="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="https://formspree.io/f/mknkkrng" method="POST">
+            <label for="attendance">Will you attend?</label>
+            <select id="attendance" name="attendance" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <button type="submit">Submit RSVP</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>RSVP due by DAY-MONTH</p>
+    </div>
 </body>
 </html>

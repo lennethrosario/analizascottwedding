@@ -1,0 +1,125 @@
+/* General reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Heading section */
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading h1 {
+    font-size: 36px;
+    color: #5d3f6a; /* Elegant purple color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* RSVP Form */
+.rsvp-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rsvp-form p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.rsvp-form p#name {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.rsvp-form iframe {
+    margin-top: 20px;
+    border: 0;
+    border-radius: 8px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-size: 18px;
+    color: #5d3f6a;
+    display: block;
+    margin-bottom: 10px;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #5d3f6a;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #6e4a86; /* Slightly lighter purple */
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .rsvp-form {
+        padding: 20px;
+    }
+
+    .heading h1 {
+        font-size: 28px;
+    }
+
+    form select, form button {
+        font-size: 14px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}

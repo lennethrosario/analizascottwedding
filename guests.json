@@ -1,0 +1,29 @@
+{
+    "guests": [
+        {   
+            "firstname": "Lenneth",
+            "lastname": "Rosario",
+            "rsvp": true
+        },
+        {
+            "firstname": "Liam",
+            "lastname": "Steegstra",
+            "rsvp": true
+        },
+        {
+            "firstname": "Lailah",
+            "lastname": "Campbell",
+            "rsvp": true
+        },
+        {
+            "firstname": "Indi",
+            "lastname": "Campbell",
+            "rsvp": true
+        },
+        {
+            "firstname": "Levi",
+            "lastname": "Campbell",
+            "rsvp": true
+        }
+    ]
+}
